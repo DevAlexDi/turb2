@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    $('.main-slider-init').slick({
-        dots: true,
+    $('.slider-best-brands').slick({
         infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear',
-        arrows: false,
+        speed: 250,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots:false,
         responsive: [
             {
                 breakpoint: 768,
@@ -101,6 +101,28 @@ $(document).ready(function () {
         if($('header form').hasClass('opened')){
             $('header form').removeClass('opened');
         }
-    })
+    });
+    
+    
+//====
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });
 
