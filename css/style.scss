@@ -434,6 +434,10 @@ a{
                     opacity: 0;
                     visibility: hidden;
                     transition: 0.3s;
+                    &.showed{
+                        opacity: 1;
+                        visibility: visible;
+                    }
                 }
                 
                 
@@ -467,7 +471,7 @@ a{
     }
     .main-m-w{
         position: relative;
-        z-index: 2;
+        z-index: 3;
     }
     .baner-text{
         padding-top: 200px;
@@ -1501,5 +1505,11 @@ footer{
             letter-spacing: 1px;
             z-index: 2;
         }
+    }
+}
+.sec-lvl-1 .flex-wrapp .left-side{
+   
+    .nav-button-1{
+display: none;
     }
 }

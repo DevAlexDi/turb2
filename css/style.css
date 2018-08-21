@@ -353,6 +353,9 @@ a {
           opacity: 0;
           visibility: hidden;
           transition: 0.3s; }
+          .sec-lvl-1 .flex-wrapp .right-side .search-form button.showed {
+            opacity: 1;
+            visibility: visible; }
       .sec-lvl-1 .flex-wrapp .right-side .contacts {
         position: relative; }
         .sec-lvl-1 .flex-wrapp .right-side .contacts .icon {
@@ -377,7 +380,7 @@ a {
           z-index: 2; }
   .sec-lvl-1 .main-m-w {
     position: relative;
-    z-index: 2; }
+    z-index: 3; }
   .sec-lvl-1 .baner-text {
     padding-top: 200px; }
     .sec-lvl-1 .baner-text .head-baner {
@@ -1146,5 +1149,8 @@ footer .bott {
     color: #8d8d8d;
     letter-spacing: 1px;
     z-index: 2; }
+
+.sec-lvl-1 .flex-wrapp .left-side .nav-button-1 {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

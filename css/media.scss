@@ -1,3 +1,407 @@
-@media (max-width: 1680px) {
+@media (max-width: 1630px) {
+    .portfolio .flex-head-sec-wrapp{
+        display: block;
+    }
+    .portfolio .flex-head-sec-wrapp .right-side .more{
+        &:first-child{
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 1580px) {
+    .sec-news .flex-news .one-new-wrapp .one-new a{
+        font-size: 17px;
+    }
+}
+@media (max-width: 1400px) {
+    .main-m-w {
+        padding: 0 40px;
+    }
+    .section-style .slider-best-brands .slick-arrow.slick-next{
+        left: 100%;
+    }
+    .section-style .slider-best-brands .slick-arrow.slick-prev {
+        right: 100%;
+    }
+    .portfolio .portfolio-slider .slick-arrow.slick-prev{
+        right: 100%;
+    }
+    .portfolio .portfolio-slider .slick-arrow.slick-next{
+        left: 100%
+    }
+    .sec-lvl-3 .one-col-sec-3{
+        width: 25%;
+    }
+    .price-section .flex-tables{
+        flex-wrap: wrap;
+        
+    }
+    .price-section .flex-tables .side{
+        width: calc(50% - 30px);
+    }
+    .price-section .flex-tables .side.other-table{
+        margin: 0 auto 30px auto;
+    }
+    footer .top .main-m-w .left-side .second .flex-tel{
+        display: block;
+    }
+    .form-send-wrapp .left-side h6{
+        font-size: 30px;
+    }
+    .portfolio .flex-head-sec-wrapp .right-side{
+        width: 100%;
+    }
+    footer .bott .politics{
+        left: 55px;
+    }
+}
+@media (max-width: 1300px) {
+   .sec-news .flex-news .one-new-wrapp .one-new .image {
+       height: 220px;
+    }
+    .sec-lvl-1 .baner-text {
+        padding-top: 110px;
+    }
+    .sec-lvl-1{
+        min-height: 670px;
+    }
+    .sec-lvl-1 .baner-text .head-baner{
+        font-size: 30px;
+    }
+    .sec-lvl-3 .one-col-sec-3{
+        width: 33.33%;
+    }
+    .sec-lvl-3 .main-m-w.column4{
+        justify-content: center;
+    }
+}
+@media (max-width: 1199px) {
+    .sec-lvl-1 .baner-text .width-50{
+        width: 100%;
+    }
+    .sec-lvl-1 .line.line-2{
+        left: 22%;
+    }
+    .section-style .slider-best-brands .slide .slide-wrapp a span{
+        font-size: 19px;
+    }
+    .section-style .slider-best-brands .slide .slide-wrapp .image-brand{
+        height: 165px;
+    }
+    .sec-lvl-3 .one-col-sec-3{
+        width: 50%;
+    }
+    .price-section .flex-tables .side{
+        width: 100%;
+    }
+    .sec-lvl-5 .flex-couse .img{
+        display: none;
+    }
+    .sec-lvl-5 .flex-couse ul{
+        width: 100%;
+    }
+    .gray-bg-opp .main-m-w{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gray-bg-opp .main-m-w .some-logo{
+        width: 33.33%;
+    }
+    
+    .wwd-block .one-block{
+        width: 50%;
+    }
+    .wwd-block .one-block .m-w-one-block{
+        margin: 0 auto!important;
+        padding: 0 15px;
+    }
+    .form-send-wrapp .flex-form-wrapper .l-s-flex:before{
+        display: none;
+    }
+    
+    .form-send-wrapp .flex-form-wrapper{
+        display: block;
+    }
+    
+    .form-send-wrapp .flex-form-wrapper .l-s-flex{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .form-send-wrapp .flex-form-wrapper .r-s-flex{
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    .prefoot-sec .main-m-w .side .for-center-flex p{
+        font-size: 13px;
+    }
+    footer .top .main-m-w{
+        flex-wrap: wrap;
+    }
+    footer .top .main-m-w .side{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    footer .top .main-m-w .mid-side{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    footer .top .main-m-w .right-side{
+        width: 100%;
+    }
+    .sec-news .flex-news .one-new-wrapp .one-new a{
+        font-size: 14px;
+    }
+    .list-of-brands ul li {
+        width: 16.66%;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-m-w{
+        padding: 0 15px;
+    }
+    .sec-lvl-1 .flex-wrapp .left-side a{
+        font-size: 18px;
+    }
+    .sec-lvl-1 .baner-text {
+        padding-top: 80px;
+    }
+    .sec-lvl-1 .line{
+        display: none!important;
+    }
+    .sec-lvl-1 {
+        min-height: 615px;
+    }
+
+    .sec-lvl-1 .baner-text .head-baner {
+        font-size: 22px;
+    }
+    .sec-lvl-1 .baner-text .head-baner span{
+        font-size: 19px;
+    }
+    .sec-lvl-1 .baner-text .width-50 p{
+        margin-bottom: 30px;
+    }
+    .section-style .slider-best-brands .slick-arrow{
+        z-index: 20;
+    }
+    .section-style .slider-best-brands .slick-arrow.slick-prev{
+        right: auto;
+        left: 10px;
+    }
+    .section-style .slider-best-brands .slick-arrow.slick-next{
+        left: auto;
+        right: 10px;
+    }
+    .list-of-brands ul li{
+        width: 25%;
+    }
+    .sec-lvl-5 .flex-couse ul li {
+    width: calc(50% - 15px);
+    }
+    .portfolio .flex-head-sec-wrapp .right-side{
+        display: block;
+    }
+    .portfolio .flex-head-sec-wrapp .right-side .more{
+        padding-left: 0;
+    }
+    .wwd-block .one-block{
+        width: 100%;
+    }
+    .sec-news .flex-news .one-new-wrapp{
+        width: 100%;
+    }
+    .prefoot-sec .main-m-w{
+        display: block;
+    }
+    .prefoot-sec .main-m-w .side{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .bott .politics {
+        left: 30px;
+    }
+}
+@media (max-width: 767px) {
+    body{
+        padding-left: 0;
+    }
+    .main-menu{
+        padding-right: 0;
+        
+    }
+    .sec-lvl-3 .one-col-sec-3{
+        width: 100%;
+    }
+    footer .top .main-m-w{
+        display: block;
+    }
+    .sec-lvl-1 .flex-wrapp{
+        display: block;
+    }
+    
+    .sec-lvl-1 .flex-wrapp .right-side{
+        display: block;
+    }
+    
+    .sec-lvl-1 .flex-wrapp .left-side {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    
+    .sec-lvl-1 .flex-wrapp .right-side .search-form{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .sec-lvl-1 .baner-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+    
+    .sec-lvl-1 .baner-text .width-50 p{
+        font-size: 14px;
+    }
+    .sec-lvl-1 .flex-wrapp{
+        padding-top: 20px;
+    }
+    
+    .section-style .head-section{
+        font-size: 17px;
+    }
+    .list-of-brands ul li{
+        width: 50%;
+    }
+    
+    .price-section .flex-tables .side .table-wrapper .row-of-table{
+        flex-wrap: wrap;
+        .name{
+            width: 100%;
+        }
+    }
+    .price-section .flex-tables .side .table-wrapper .row-of-table .right-side{
+        width: 100%;
+    }
+    .price-section .flex-tables .side .table-wrapper .row-of-table .right-side p.des{
+        width: 50%;
+        padding-left: 0;
+    }
+    .price-section .flex-tables .side .table-wrapper .row-of-table .right-side p{
+        width: 50%;
+        &.price{
+            text-align: right;
+            padding-right: 0;
+        }
+    }
+    .sec-lvl-5 .flex-couse ul li{
+        width: 100%;
+    }
+    .portfolio .portfolio-slider .slide .flex-slide{
+        flex-direction: column-reverse;
+    }
+    
+    .portfolio .portfolio-slider .slide .flex-slide .right-side{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .portfolio .portfolio-slider .slide .flex-slide .left-side{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .portfolio .portfolio-slider .slide{
+        padding: 0;
+    }
+    .gray-bg-opp .main-m-w .some-logo{
+        width: 50%;
+    }
+    .gray-bg-opp{
+        margin-bottom: 30px;
+    }
+    .form-send-wrapp{
+        padding-top: 0;
+    }
+    .form-send-wrapp .left-side h6{
+        font-size: 22px;
+    }
+    .form-send-wrapp .buy_form_wrap .for-padding .inputs .for-flex-two{
+        display: block;
+    }
+    .form-send-wrapp .buy_form_wrap .for-padding .inputs .for-flex-two .for-w:first-child{
+        padding-right: 0;
+    }
+    .form-send-wrapp .buy_form_wrap .for-padding .inputs .for-flex-two .for-w{
+        width: 100%;
+    }
+    .wwd-block .one-block .m-w-one-block{
+        padding: 0;
+    }
+    .sec-news .flex-news .one-new-wrapp{
+        padding: 0;
+    }
+    footer .top .main-m-w .side{
+        width: 100%;
+        padding: 0;
+    }
+    footer .bott .politics{
+        display: none;
+    }
+    
+    
+    
+    .main-menu{
+        width: 270px;
+    }
+    
+    .sec-lvl-1 .flex-wrapp .left-side{
+        position: relative;
+        .nav-button-1{
+            display: block;
+            position: absolute;
+            border: none;
+            background: transparent;
+            outline: none;
+            top: 4px;
+            left: 6px;
+            height: 30px;
+            width: 30px;
+            font-size: 14px;
+            padding: 0;
+            z-index: 20;
+            .lines-wrapp{
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 30px;
+                height: 30px;
+                display: block;
+                .line{
+                    margin-bottom: 3px;
+                    display: block!important;
+                    height: 3px;
+                    background: #fff;
+                    position: relative;
+                    width: 100%;
+                }
+            }
+            .text{
+                color: #000;
+                font-size: 14px;
+            }
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
     
 }
