@@ -158,6 +158,15 @@
     .list-of-brands ul li {
         width: 16.66%;
     }
+
+    .contacts_page .contacts_flex .cont_col .cont_phones {
+        display: block;
+
+        a {
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -224,6 +233,13 @@
     }
     footer .bott .politics {
         left: 30px;
+    }
+
+    .contacts_page .contacts_flex {
+        display: block;
+    }
+    .contacts_page .contacts_flex .cont_col {
+        width: 100%;
     }
 }
 @media (max-width: 767px) {
@@ -399,7 +415,13 @@
     }
     
     
-    
+    .contacts_top {
+        min-height: 350px!important;
+    }
+
+    #map {
+        height: 350px;
+    }
     
     
     

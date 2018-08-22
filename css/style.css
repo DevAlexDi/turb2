@@ -1460,4 +1460,49 @@ footer .bott {
     -webkit-column-count: 2;
             column-count: 2; }
 
+.contacts_page {
+  padding: 0 15px; }
+  .contacts_page .contacts_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .contacts_page .contacts_flex .cont_col {
+      width: 30%; }
+      .contacts_page .contacts_flex .cont_col .lab {
+        font: 18px "MuseoSansCyrlBold"; }
+      .contacts_page .contacts_flex .cont_col .addr {
+        font-size: 16px; }
+      .contacts_page .contacts_flex .cont_col .wt {
+        color: #7e7e7e;
+        font-size: 14px;
+        margin-bottom: 5px; }
+      .contacts_page .contacts_flex .cont_col a {
+        color: black;
+        font: 16px "MuseoSansCyrlBold"; }
+      .contacts_page .contacts_flex .cont_col .cont_phones {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+
+#map {
+  height: 480px;
+  position: absolute;
+  width: 100%; }
+  #map:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); }
+  #map.light:after {
+    display: none; }
+
 /*# sourceMappingURL=style.css.map */
