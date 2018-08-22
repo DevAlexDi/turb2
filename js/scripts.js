@@ -1,4 +1,19 @@
+
+ window.onload = function() {
+    $("#w-1").addClass("js-hidden");
+};
+
+
 $(document).ready(function () {
+   
+    
+    
+    
+    
+    
+    
+    
+    
     $('.slider-best-brands').slick({
         infinite: true,
         speed: 250,
@@ -120,7 +135,23 @@ $(document).ready(function () {
     
     
     
+     var win = $(window);
+    var scrFunc = function () {
+        var t = win.scrollTop(),
+            e = win.height();
+        $("[data-anim], .slider-best-brands .white-block,.sec-lvl-5 .white-block,.portfolio-slider .white-block, .one-new .image .white-block").each(function (n, i) {
+            var r = $(i).offset().top,
+                s = t + .9 * e;
+            s > r ? $(i).attr("data-anim", "true") : ""
+        })
+    }
+    scrFunc();
     
+    
+    $(window).scroll(function () {
+        scrFunc();
+          
+    });
     
     
     
