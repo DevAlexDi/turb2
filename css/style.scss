@@ -432,7 +432,7 @@ a{
                     background-image: url(../img/loop.png);
                     background-position: center;
                     background-repeat: no-repeat;
-                    background-color: rgba(0,0,0,0.3);
+                    background-color: #0099da;
                 }
                 input{
                     background: transparent;
@@ -488,7 +488,7 @@ a{
                     background-image: url(../img/tel-icon.png);
                     background-position: center;
                     background-repeat: no-repeat;
-                    background-color: rgba(0,0,0,0.3);
+                    background-color: #0099da;
                 }
                 a{
                     color: #fff;
@@ -1554,8 +1554,103 @@ display: none;
 }
 
 
+.sec-lvl-1.page_top {
+    min-height: 480px;
 
+    .baner-text {
+        padding-top: 60px;
+    }
+}
 
+.page_start {
+    .breads {
+        margin: 0;
+        padding: 0 15px;
+        list-style: none;
+        display: flex;
+
+        li {
+            font-size: 12px;
+            margin-right: 10px;
+            position: relative;
+            padding-left: 15px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 6px;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: #0099da;
+            }
+
+            &:first-child {
+                padding-left: 0;
+
+                &:before {
+                    display: none;
+                }
+            }
+
+            a {
+                color: #000;
+            }
+        }
+    }
+
+    h1 {
+        font: 24px $fbold;
+        margin: 20px 15px;
+
+        &.news_zag {
+            font-size: 18px;
+        }
+    }
+}
+
+.sec-news.news_page {
+    .other_news_zag {
+        font: 24px $fbold;
+        margin: 0 15px 30px;
+    }
+
+    .flex-news {
+        .one-new-wrapp {
+            margin-bottom: 45px;
+        }
+    }
+}
+
+.news_item {
+    padding: 0 15px;
+
+    .main-m-w {
+        max-width: 1140px;
+        width: 100%;
+
+        p {
+            img {
+                max-width: 100%!important;
+            }
+        }
+
+        p, ul li, ol li {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-size: 18px;
+            font-family: $fbold;
+            margin: 45px 0;
+        }
+        h1 {
+            font-size: 24px;
+        }
+    }
+}
 
 
 
