@@ -1430,4 +1430,34 @@ footer .bott {
     .news_item .main-m-w h1 {
       font-size: 24px; }
 
+.service_page {
+  padding: 0 15px; }
+  .service_page p img {
+    max-width: 100% !important; }
+  .service_page p, .service_page ul li, .service_page ol li {
+    font-size: 14px;
+    text-align: justify; }
+  .service_page h1, .service_page h2, .service_page h3, .service_page h4, .service_page h5, .service_page h6 {
+    font-size: 18px;
+    font-family: "MuseoSansCyrlBold";
+    margin: 45px 0; }
+  .service_page h1 {
+    font-size: 24px; }
+  .service_page .flex-one-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .service_page .flex-one-service .img-serv {
+      width: 33.33%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 213px; }
+    .service_page .flex-one-service .right-side {
+      width: 66.66%;
+      padding-left: 25px; }
+  .service_page .for-text {
+    -webkit-column-count: 2;
+            column-count: 2; }
+
 /*# sourceMappingURL=style.css.map */
