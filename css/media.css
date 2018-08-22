@@ -27,8 +27,7 @@
     width: 25%; }
 
   .price-section .flex-tables {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
 
   .price-section .flex-tables .side {
     width: calc(50% - 30px); }
@@ -64,9 +63,7 @@
     width: 33.33%; }
 
   .sec-lvl-3 .main-m-w.column4 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; } }
+    justify-content: center; } }
 @media (max-width: 1199px) {
   .sec-lvl-1 .baner-text .width-50 {
     width: 100%; }
@@ -93,11 +90,8 @@
     width: 100%; }
 
   .gray-bg-opp .main-m-w {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    flex-wrap: wrap;
+    justify-content: center; }
 
   .gray-bg-opp .main-m-w .some-logo {
     width: 33.33%; }
@@ -128,8 +122,7 @@
     font-size: 13px; }
 
   footer .top .main-m-w {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
 
   footer .top .main-m-w .side {
     width: 50%;
@@ -266,8 +259,7 @@
     width: 50%; }
 
   .price-section .flex-tables .side .table-wrapper .row-of-table {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
     .price-section .flex-tables .side .table-wrapper .row-of-table .name {
       width: 100%; }
 
@@ -288,10 +280,7 @@
     width: 100%; }
 
   .portfolio .portfolio-slider .slide .flex-slide {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
+    flex-direction: column-reverse; }
 
   .portfolio .portfolio-slider .slide .flex-slide .right-side {
     width: 100%;
