@@ -1476,5 +1476,48 @@ footer .bott {
         .turbo-cat-second-wr .final-links-list li a:hover {
           background: #0099da;
           color: #fff; }
+        .turbo-cat-second-wr .final-links-list li a.active {
+          background: #0099da;
+          color: #fff; }
+
+.table-of-turbo {
+  margin-bottom: 40px; }
+  .table-of-turbo .main-m-w {
+    max-width: 1500px;
+    margin: 0 auto; }
+  .table-of-turbo .one-turbo {
+    padding: 20px 0;
+    border-bottom: 2px solid #0099da; }
+  .table-of-turbo .one-turbo .row {
+    display: flex;
+    align-items: center; }
+  .table-of-turbo .one-turbo .row p.name {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "MuseoSansCyrlBold"; }
+  .table-of-turbo .one-turbo .row p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px; }
+  .table-of-turbo .one-turbo .row a, .table-of-turbo .one-turbo .row span {
+    display: block;
+    font-size: 12px;
+    font-family: "MuseoSansCyrlBold";
+    color: #000; }
+  .table-of-turbo .one-turbo .row .consult-one-serv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+  .table-of-turbo .one-turbo .row .consult-one-serv button {
+    font-size: 14px;
+    padding: 10px 24px; }
+  .table-of-turbo .table-char {
+    margin-bottom: 40px; }
+  .table-of-turbo .see-more {
+    display: flex;
+    justify-content: center; }
+    .table-of-turbo .see-more .main-button-style {
+      font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */

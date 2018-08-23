@@ -1983,7 +1983,65 @@ display: none;
                     background: $main_color;
                     color: #fff;
                 }
+                &.active{
+                     background: $main_color;
+                    color: #fff;
+                }
             }
         }
+    }
+}
+.table-of-turbo{
+    margin-bottom: 40px;
+    .main-m-w{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    
+    .one-turbo{
+        padding: 20px 0;
+        border-bottom: 2px solid $main_color;
+    }
+    .one-turbo .row {
+        display: flex;
+        align-items: center;
+    }
+    .one-turbo .row p.name{
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: $fbold;
+    }
+    .one-turbo .row p {
+        margin: 0;
+        font-weight: bold;
+        font-size: 12px;
+    }
+     .one-turbo .row a,.one-turbo .row span {
+        display: block;
+        font-size: 12px;
+        font-family: $fbold;
+        
+        color: #000;
+    }
+    .one-turbo .row .consult-one-serv {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .one-turbo .row .consult-one-serv button {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+    .table-char{
+        margin-bottom: 40px;
+    }
+    .see-more{
+        display: flex;
+        justify-content: center;
+        .main-button-style{
+            font-size: 18px;
+        }
+        
     }
 }
